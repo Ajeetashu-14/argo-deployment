@@ -4,7 +4,7 @@ metadata:
   name: nextjs-app
 spec:
   containers:
-  - name: nextjs-app
-    image: ajeet999/next-app-gitops:dad124450876b99e0f5e7d14f21c27eb0e90f65c
+  - name: next-app
+    image: ajeet999/next-app-gitops:f5b095795389a42a0b62aa85c0188000ff851a19
     ports:
     - containerPort: 80

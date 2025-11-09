@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: next-app
-    image: ajeet999/next-app-gitops:2a059d19787192031a8c5999368b0eb879ac0402
+    image: ajeet999/next-app-gitops:dad124450876b99e0f5e7d14f21c27eb0e90f65c
     ports:
     - containerPort: 80

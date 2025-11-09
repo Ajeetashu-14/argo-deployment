@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: next-app
 spec:
   containers:
-  - name: nginx
+  - name: next-app
     image: ajeet999/next-app-gitops:2a059d19787192031a8c5999368b0eb879ac0402
     ports:
     - containerPort: 80

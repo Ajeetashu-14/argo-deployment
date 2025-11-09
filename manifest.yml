@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: next-app
+  name: nextjs-app
 spec:
   containers:
-  - name: next-app
+  - name: nextjs-app
     image: ajeet999/next-app-gitops:dad124450876b99e0f5e7d14f21c27eb0e90f65c
     ports:
     - containerPort: 80
